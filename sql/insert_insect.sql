@@ -1,1 +1,0 @@
-INSERT INTO insects (insect_id, name, species, color, size, habitat) VALUES (DEFAULT, $1, $2, $3, $4, $5, $6) RETURNING insect_id;
