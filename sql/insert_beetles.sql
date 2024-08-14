@@ -1,0 +1,1 @@
+INSERT INTO beetles (beetle_id, shell_hardness, special_features) VALUES (DEFAULT, $1, $2, $3) RETURNING beetle_id;

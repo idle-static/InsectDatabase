@@ -1,0 +1,1 @@
+INSERT INTO buttefles (butterfly_id, wing_span, migration_pattern) VALUES (DEFAULT, $1, $2, $3) RETURNING butterfly_id;

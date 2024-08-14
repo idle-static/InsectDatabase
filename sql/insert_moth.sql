@@ -1,0 +1,1 @@
+INSERT INTO moths (moth_id, wing_span, nocturnal) VALUES (DEFAULT, $1, $2) RETURNING moth_id;
