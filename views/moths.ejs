@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+    <body>
+        <ul>
+            <% moths.forEach(moths => { %>
+                <li>
+                    <strong><p>ID:</strong> <%= moths.moth_id %></p>
+                    <strong><p>Name:</strong> <%= moths.name %></p>
+                    <strong><p>Species:</strong> <%= moths.species %></p>
+                    <strong><p>Color:</strong> <%= moths.color %></p>
+                    <strong><p>Size:</strong> <%= moths.size %></p>
+                    <strong><p>Wing Span:</strong> <%= moths.wing_span %></p>
+                    <strong><p>Habitat:</strong> <%= moths.habitat %></p>
+                    <strong><p>Nocturnal:</strong> <%= moths.nocturnal %></p>
+                </li>
+            <% }) %>
+        </ul>
+    </body>
