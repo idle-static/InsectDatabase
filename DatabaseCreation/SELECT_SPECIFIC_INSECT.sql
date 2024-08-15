@@ -1,1 +1,0 @@
-SELECT * FROM Insects WHERE insect_id = 1;

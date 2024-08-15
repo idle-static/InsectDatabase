@@ -1,0 +1,11 @@
+{
+  "name": "insectdatabase",
+  "version": "1.0.0",
+  "description": "A simple insect database created with SQL. Using Node and JS, this database is accessible through a local server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

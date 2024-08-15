@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a moth!</title>
+</head>
+    <body>
+        <form action="/addMoth"  method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="species">Species:</label>
+            <input type="text" id="species" name="species"><br><br>
+
+            <label for="color">Color:</label>
+            <input type="text" id="color" name="color"><br><br>
+
+            <label for="size">Size (number):</label>
+            <input type="number" id="size" name="size"><br><br>
+
+            <label for="wing_span">Wing Span (number):</label>
+            <input type="number" id="wing_span" name="wing_span"><br><br>
+
+            <label for="habitat">Habitat</label><br>
+            <input type="text" id="habitat" name="habitat"><br><br>
+
+            <label for="nocturnal">Nocturnal (True or False):</label><br>
+            <input type="text" id="nocturnal" name="nocturnal"><br><br>
+
+            <button type="submit">Add Moth</button>
+        </form>
+    </body>
+</html>
